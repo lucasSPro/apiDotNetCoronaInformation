@@ -20,7 +20,7 @@ namespace ApiDotNet.Data
                 DB = client.GetDatabase(configuration["NomeBanco"]);
                 MapClasses();
             }
-            catch (System.Exception)
+            catch (System.Exception ex)
             {
                 
                 throw new MongoException("It was not possible to connect to MongoDB", ex);
