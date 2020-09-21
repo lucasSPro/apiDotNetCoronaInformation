@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Documents\\ApiDotNet\\ApiDotNet.csproj": {}
+    "C:\\Users\\Lucas\\Documents\\ApiDotNet\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Documents\\ApiDotNet\\ApiDotNet.csproj": {
+    "C:\\Users\\Lucas\\Documents\\ApiDotNet\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\ApiDotNet\\ApiDotNet.csproj",
-        "projectName": "ApiDotNet",
-        "projectPath": "C:\\Users\\Lucas\\Documents\\ApiDotNet\\ApiDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\ApiDotNet\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\Users\\Lucas\\Documents\\ApiDotNet\\Api.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Lucas\\Documents\\ApiDotNet\\obj\\",
         "projectStyle": "PackageReference",
@@ -40,7 +40,7 @@
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.11.2, )"
+              "version": "[2.10.2, )"
             }
           },
           "imports": [
